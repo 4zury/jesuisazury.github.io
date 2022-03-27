@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A propos de moi</title>
+</head>
+
+<body>
+    <!--STYLE SANS CSS-->
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        
+        body {
+            background-image: url(img/back2.jpg);
+            background-position: center;
+            background-size: cover;
+            height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            backdrop-filter: blur(3px);
+        }
+        
+        .glass {
+            width: 930px;
+            height: 520px;
+            box-shadow: 0 0 8px rgba(255, 255, 255, 1);
+            background-image: url(img/front2.jpg);
+            background-position: center;
+            background-size: cover;
+        }
+        
+        nav {
+            display: flex;
+            padding: 30px 8%;
+        }
+        
+        .logo {
+            font-size: 22px;
+            color: white;
+            cursor: pointer;
+        }
+        
+        nav ul {
+            flex: 1;
+            text-align: right;
+        }
+        
+        nav ul li {
+            list-style: none;
+            display: inline-block;
+            margin: 0 20px;
+            transition: 0.3 ease-out;
+        }
+        
+        nav ul li a:hover {
+            transition: 0.5s;
+            border-bottom: 2px solid #fff;
+        }
+        
+        nav ul li a {
+            text-decoration: none;
+            font-size: 14px;
+            color: white;
+            font-weight: bold;
+        }
+        
+        h3 {
+            color: white;
+            opacity: .4;
+            margin: 80px 120px -25px;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-weight: 100;
+            font-size: 20px;
+            letter-spacing: 1px;
+        }
+        
+        h1 {
+            color: #000;
+            margin: 0 110px;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-size: 125px;
+            letter-spacing: 1px;
+            opacity: 0.6;
+            background-image: linear-gradient(45deg, #fff, #fff, #fff, #fff);
+            background-size: 100%;
+            -webkit-background-clip: text;
+            -moz-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            -webkit-text-fill-color: transparent;
+        }
+        
+        div p {
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            color: white;
+            margin: 4px 50px;
+        }
+        
+        img {
+            width: 35px;
+            height: 35px;
+            border-radius: 50px;
+            cursor: pointer;
+            margin-top: -7px;
+            transition: 0.3 ease;
+        }
+        
+        img:hover {
+            border: 2px solid #fff;
+        }
+    </style>
+    <!--STYLE SANS CSS-->
+    <div class="glass">
+        <nav>
+            <h2 class="logo">Azury</h2>
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="about.html">A PROPOS DE MOI</a></li>
+                <li><a href="#">SERVICE</a></li>
+                <li><a href="contact.html">ME CONTACTER</a></li>
+            </ul>
+            <img src="img/profile.jpg" alt="profile">
+        </nav>
+        <div>
+            <h3>A propos de</h3>
+            <h1>MOI</h1>
+            <p>Bonjour, je me présente je m'appelle Vincent j'ai 14ans et je crée des sites en HTML & CSS. Ce site que vous voyez devant vos yeux cela ma pris 3 jours pour le faire. J'essaye de modifier des petits détaille pour améliorer le rendu du site.
+                </p>
+        </div>
+
+</body>
+
+</html>
